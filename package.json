@@ -70,7 +70,6 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "postinstall": "node ./node_modules/typings/dist/bin.js install",
     "build": "node ./node_modules/gulp/bin/gulp.js build",
     "serve": "node ./node_modules/gulp/bin/gulp.js watchAndServe",
     "start": "node dist/server.js"
